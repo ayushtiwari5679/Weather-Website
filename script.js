@@ -21,7 +21,7 @@ const WEATHER_API_ENDPOINT = 'https://weatherapi-com.p.rapidapi.com/forecast.jso
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "1094c62795msh74931f79f057bd5p1293c1jsn5865abc4a727",
+    "X-RapidAPI-Key": "1094c62795msh74931f79f057bd5p12c1jsn5865abc4a727",
     "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
   },
 };
@@ -119,3 +119,4 @@ function findUserLocation() {
       alert("An error occurred while fetching weather data. Please try again.");
     });
 }
+
